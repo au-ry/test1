@@ -32,7 +32,7 @@ test('get started link', async ({ page }) => {
  */
 
 // test.only('check Java page', async ({ page }) => {
-test.skip('check Java page', async ({ page }) => {
+test('check Java page', async ({ page }) => {
 
   await page.goto('https://playwright.dev');
 
